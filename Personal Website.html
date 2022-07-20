@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_project.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css">
+    <!-- C:\Users\User\Desktop\html_basic\css\bootstrap.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome To My Website</title>
+</head>
+
+<body>
+
+    <div class="overlay">
+
+    </div>
+    <div class="main">
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span>
+
+                        </span>
+
+                    </button>
+                    <div class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="home-section align-items-center active" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text" style="width: 100%;text-align: center;">
+                        <p>Hello, I Am </p>
+                        <h1>Dagim Assefa</h1>
+                        <h2>Third Year Information Science Student At Addis Ababa University</h2>
+                        <a href="#about" class="btn link-item" style="margin: 0 7px 15px;">More About Me</a>
+                        <a href="#portfolio" class="btn link-item" style="margin: 0 7px 15px;">Portfolio</a>
+                    </div>
+                    <div class="home-img" style="width: 100%; order: -1;">
+                        <img src="pic1.jpg" alt="profile picture" style="justify-content: center;padding-left: 30%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box" style="max-width: 300px;">
+                            <img src="pic1.jpg" alt="about image">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Hello there i am an ungdergraduate bachelor degree student at addis ababa university.i am
+                            currently a third year student of informatiion system.
+                            I am interested in freelance jobs on front end web design and development</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">bootstrap</div>
+                            <div class="skill-item">java</div>
+                            <div class="skill-item">c#</div>
+                            <div class="skill-item">c++</div>
+                            <div class="skill-item">database</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education"
+                                style="padding-left: 40%;">education</button>
+                        </div>
+                        <div class="tab-content active" id="education" style="border:solid;border-radius:  15px;">
+                            <div class="timeline"></div>
+                            <div class="timeline-item">
+                                <span class="date">2019-present</span>
+                                <h4>bachelor of information science - <span>addis ababa university</span></h4>
+                                <p>a grate opportunity to test myself and improve my problem solving skills</p>
+                                <h1>some courses that i have taken in those years</h1>
+                                <ul>
+                                    <li>
+                                        <h4>introduction to computer programing</h4>
+                                    </li>
+                                    <li>
+                                        <h4>Advanced computer programing</h4>
+                                    </li>
+                                    <li>
+                                        <h4>introduction Database</h4>
+                                    </li>
+                                    <li>
+                                        <h4>Advanced database</h4>
+                                    </li>
+                                    <li>
+                                        <h4>computer archtecture and oprating system</h4>
+                                    </li>
+                                    <li>
+                                        <h4>java</h4>
+                                    </li>
+                                    <li>
+                                        <h4>C#</h4>
+                                    </li>
+                                    <li>
+                                        <h4>information retrival</h4>
+                                    </li>
+                                    <li>
+                                        <h4>introduction to information system and society</h4>
+                                    </li>
+                                    <li>
+                                        <h4>networking</h4>
+                                    </li>
+                                    <li>
+                                        <h4>web programming</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="padding-left: 20%;">
+                            <a href="#portfolio" class="btn link-item">recent projects</a>
+                            <a href="#contact" class="btn link-item">Contact me</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent projects</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="bank_new.jpg" alt="bank managment system image">
+                        </div>
+                        <h3 class="portfolio-item-title">Banking Management System</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Talking about the features of this system, a user can create an account by providing
+                                    the name of the account holder, account number, and providing an initial amount.
+                                    Then the user can also deposit and withdraw money just by providing his/her account.
+                                    The user can also check for the balance inquiry which displays the account holder’s
+                                    name with account number and amount.
+                                    The user can also view all the account holder’s list.
+                                    Another feature is that the user can also close the account by providing the account
+                                    number.</p>
+
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>24 May 2021</span></li>
+                                    <li>technologies used - <span>C++</span></li>
+                                    <li>view online - <span><a href="https://github.com/Dagimassefa/git-workshop"
+                                                target="_blank">Go to the project</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="payroll.png" alt="employee managment system image">
+                    </div>
+                    <h3 class="portfolio-item-title">payroll management system</h3>
+                    <button type="button" class="btn view-project-btn">View Project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>The employee payroll management system is a java project developed using NetBeans with
+                                backend SQLite as the database.
+                                In this project, the user will find the login module appearing on the home page.
+                                The user has to enter the username and password in order to get logged into the system
+                                as the system administrator</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>17 Sep 2021</span></li>
+                                <li>technologies used - <span>Java</span></li>
+                                <li>view online - <span><a href="https://github.com/Dagimassefa/git-workshop"
+                                            target="_blank">Go to the project</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="hotel.png" alt="hotel managment system image">
+                </div>
+                <h3 class="portfolio-item-title">hotel management system</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>Hotel Management System aids in managing day to day task of hotels such as adding
+                            reservation, editing reservations, updating, or searching hotel reservations.
+                            The application development is done using C#.
+                            Microsoft Visual Studio is used as an IDE used for the programming of the application.</p>
+
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>26 Sep 2021</span></li>
+                            <li>technologies used - <span>C#</span></li>
+                            <li>view online - <span><a href="https://github.com/Dagimassefa/git-workshop"
+                                        target="_blank">Go to the project</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Message" class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>kuku.assefa18@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>+251-922997285</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                            <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+                            <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
